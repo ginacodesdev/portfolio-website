@@ -3,10 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regina "Gina" Griffin | Software Engineering, Cybersecurity, Program Management </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header and Sub-header--> 
-    <header>    
+    <header id="header-description">    
     <h1> Regina "Gina" Griffin </h1>
         <h2> Where Experience Meets Curiosity and Code </h2>
 
@@ -44,7 +45,36 @@
     <img
   src="images/gina-team.png"
   alt="JavaScript introduction highlighting Gina's experience and strengths"
-  width="450"
->
+  width="450">
+
+<br>
+<br>
+<br> 
+<!-- Form Page, include fieldset and legend https://www.w3schools.com/html/html_form_input_types.asp -->
+<fieldset>
+    <form action="">
+    <legend id="contact_form"> Contact (rename this to something better)  </legend>
+    <label for="name">Name: </label>
+    <input type="text" placeholder="Enter First and Last Name " required>
+<br>
+<br>
+    <label for="email">Email: </label>
+    <input type="email" placeholder="Enter your email" required>
+<br>
+<br>
+    <label for="phone">Phone Number:</label>
+    <input type="phone" placeholder="000-000-0000">
+<br>
+<br>
+    <label for="address">Address: </label>
+    <input type="address" placeholder="number and street name"> 
+        <input type="text" placeholder="City" >
+        <input type="text" name="State" placeholder="State">
+    <!-- button to submit the form -->
+        <input type="submit" placeholder="Send it! Let's Go! ">
+    </form> 
+</fieldset>
+
+<!-- Add a profile photo to the right of the contact form in a second column-->
 </body>
 </html>
