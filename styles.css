@@ -49,3 +49,15 @@ h2, h3 {
     align-items: flex-start; /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items */ 
     gap: 30px;  /* space between the contact form and the photos, MDN CSS gap property (add link later) */
 }
+
+#contact-form {
+    flex: 2;
+}
+
+#profile-photo {
+    flex: 1;
+    max-width: 400px;
+    height: auto;
+    border: 3px solid #BFA181;
+    border-radius: 10px;
+}
