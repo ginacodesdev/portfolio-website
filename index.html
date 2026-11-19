@@ -59,26 +59,32 @@
         <legend> Let's Connect </legend>
         
         <label for="name">Name:</label>
-        <input type="text" placeholder="Enter First and Last Name " required>
-<br>
-<br>
-    <label for="email">Email: </label>
+        <input type="text" placeholder="Enter First and Last Name" required>
+
+    <br> <br> <!-- Need space but may add padding later-->
+
+    <label for="email">Email:</label>
     <input type="email" placeholder="Enter your email" required>
-<br>
-<br>
+
+<br> <br> <!-- Need space but may add padding later--> 
+
     <label for="phone">Phone Number:</label>
-    <input type="phone" placeholder="000-000-0000">
-<br>
-<br>
-    <label for="address">Address: </label>
-    <input type="address" placeholder="number and street name"> 
-        <input type="text" placeholder="City" >
-        <input type="text" name="State" placeholder="State">
+    <input type="tel" id="phone" name="phone" placeholder="000-000-0000">
+
+<br> <br> <!-- Need space but may add padding later-->
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" placeholder="Number and Street Name">
+
+<!-- Aria (accessible rich internet app) Label is for assistive technology-->
+    <input type="text" name="city" aria-label="city" placeholder="City" >
+    <input type="text" name="state" aria-label="state" placeholder="State">
+
     <!-- button to submit the form -->
-        <input type="submit" placeholder="Send it! Let's Go! ">
+    <input type="submit" value="Send it! Let's Go! ">
   
     </fieldset> <!-- fieldset should go inside tmy form tags -->
-  </form> 
+</form> 
 
 <!-- Add a profile photo to the right of the contact form in a second column-->
 </body>
