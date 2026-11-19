@@ -1,14 +1,37 @@
-/* Reminder #id and .classes  
+/* Reminder #id and .classes  */  
 #contact_form {
-    background-color: blue;
+    background-color: #D2C1B6;
+    padding: 5%;
+}
+
+body {
+    background-color: #0A1828;
+    color: #178582;
 }
 
 #header-description {
-    background-color: yellow;
+    color: #BFA181;
+    text-shadow: white;
+    padding: 2%;
 }
 
-#experience {
-    background-color: lime;
+
+#name-header {
+    color: white;
+    text-shadow: #178582;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-style: wavy;
+    padding: 2%;
 }
 
-*/
+img {
+    padding: 2%;
+}
+
+h2, h3 {
+    text-shadow:  white;
+    
+}
