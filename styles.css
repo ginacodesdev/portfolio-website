@@ -1,7 +1,15 @@
 /* Reminder #id and .classes  */  
-#contact_form {
+#contact_form label {
+    display: block;
+    margin-top: 15px; /* to help with my spacing*/ 
+    margin-bottom: 5px; /* to help with my spacing*/  
     background-color: #D2C1B6;
-    padding: 5%;
+}
+
+#contact_form input {
+    padding: 10px;
+    border: 1px solid #178582;
+    border-radius: 5px;
 }
 
 body {
