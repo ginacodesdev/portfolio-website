@@ -9,6 +9,8 @@
     <!-- Header and Sub-header--> 
     <header id="header-description">    
     <h1 id="name-header"> Regina "Gina" Griffin </h1>
+
+    <!--Add social link here  -->
         <h2> Where Experience Meets Curiosity and Code </h2>
 
     <!-- Description -->
@@ -51,11 +53,13 @@
 <br>
 <br> 
 <!-- Form Page, include fieldset and legend https://www.w3schools.com/html/html_form_input_types.asp -->
-<fieldset>
-    <form id="contact_form" action="">
-    <legend> Contact (rename this to something better)  </legend>
-    <label for="name">Name: </label>
-    <input type="text" placeholder="Enter First and Last Name " required>
+<form id="contact_form" action="">
+
+    <fieldset>
+        <legend> Let's Connect </legend>
+        
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter First and Last Name " required>
 <br>
 <br>
     <label for="email">Email: </label>
@@ -72,8 +76,9 @@
         <input type="text" name="State" placeholder="State">
     <!-- button to submit the form -->
         <input type="submit" placeholder="Send it! Let's Go! ">
-    </form> 
-</fieldset>
+  
+    </fieldset> <!-- fieldset should go inside tmy form tags -->
+  </form> 
 
 <!-- Add a profile photo to the right of the contact form in a second column-->
 </body>
