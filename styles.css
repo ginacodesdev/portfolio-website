@@ -43,3 +43,9 @@ h2, h3 {
     text-shadow:  white;
     
 }
+
+.contact-layout {
+    display: flex; /* this put the profile and contact form in two columns*/
+    align-items: flex-start; /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items */ 
+    gap: 30px;  /* space between the contact form and the photos, MDN CSS gap property (add link later) */
+}
