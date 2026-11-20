@@ -21,22 +21,24 @@ body {
     color: #BFA181;
     text-shadow: white;
     padding: 4%;
-    text-align: center; /*centered subheading*/
+    text-align: center; /*centered*/
     font-size: 2rem; /*increased text size on page*/
     
 }
 #experience {
     padding: 4%;
+    text-align: center;
+    font-size: 1.78rem;/*increased font size*/
 }
 #name-header {
     color: white;
     text-shadow: #178582;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.23rem; /*increased header font size*/
     text-decoration-line: underline;
     text-decoration-color: white;
     text-decoration-style: wavy;
-    padding: 2%; 
+    padding: 3%; /*increased padding from 2 to 3 percent*/
 }
 
 img {
