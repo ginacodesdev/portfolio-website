@@ -20,23 +20,31 @@ body {
 #header-description {
     color: #BFA181;
     text-shadow: white;
-    padding: 2%;
+    padding: 4%;
+    text-align: center; /*centered*/
+    font-size: 2rem; /*increased text size on page*/
+    
 }
-
-
+#experience {
+    padding: 4%;
+    text-align: center;
+    font-size: 1.78rem;/*increased font size*/
+}
 #name-header {
     color: white;
     text-shadow: #178582;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.23rem; /*increased header font size*/
     text-decoration-line: underline;
     text-decoration-color: white;
     text-decoration-style: wavy;
-    padding: 2%;
+    padding: 3%; /*increased padding from 2 to 3 percent*/
 }
 
 img {
-    padding: 2%;
+    padding: 3%;
+    display: block; /*centered top image and placed it under "Where experience meets curiosity and code"*/
+    margin: 0 auto;
 }
 
 h2, h3 {
@@ -48,6 +56,7 @@ h2, h3 {
     display: flex; /* this put the profile and contact form in two columns*/
     align-items: flex-start; /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items */ 
     gap: 30px;  /* space between the contact form and the photos, MDN CSS gap property (add link later) */
+    padding: 4%;
 }
 
 #contact-form {
@@ -60,4 +69,5 @@ h2, h3 {
     height: auto;
     border: 3px solid #BFA181;
     border-radius: 10px;
+    padding: 4%;
 }
