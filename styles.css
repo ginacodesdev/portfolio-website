@@ -21,6 +21,8 @@ body {
     color: #BFA181;
     text-shadow: white;
     padding: 4%;
+    text-align: center; /*centered subheading*/
+    font-size: 2rem; /*increased text size on page*/
     
 }
 #experience {
@@ -34,11 +36,13 @@ body {
     text-decoration-line: underline;
     text-decoration-color: white;
     text-decoration-style: wavy;
-    padding: 2%;
+    padding: 2%; 
 }
 
 img {
-    padding: 4%;
+    padding: 3%;
+    display: block; /*centered top image and placed it under "Where experience meets curiosity and code"*/
+    margin: 0 auto;
 }
 
 h2, h3 {
